@@ -28,13 +28,11 @@ stage
 
 production  - V1.0.0.0
 
-
 feat/
 fix/
 update/
 hotfix/
 delete/
-
 
 git commit -m "fix: fixing bug on login page"
 git commit -m "feat: add new feature"
