@@ -148,3 +148,6 @@ result = auth.transfer(20, "alt_pass", nur)
 print(result)
 print(f"Alt balance: {alt.get_balance('alt_pass')}")
 print(f"Nur balance: {nur.get_balance('nur_pass')}")
+
+
+

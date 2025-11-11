@@ -1,14 +1,48 @@
-Команды для регистрации моих данных:
-git config --global user.name "lukaaxn"
-git config --global user.email "ayelitaaxn@gmail.com"
-
-Команды только для одного проекта:
-git init            | Инициализация Гита
-git remote add origin https://github.com/lukaaxn/OOP-60-2.git | Добавление репозитория
-
-git status | Статус репозитория
+Команды для регистрации ваших данных
+1) git config --global user.name "your_username"
+2) git config --global user.email "your_username@gmai.com"
 
 
-git add .           | Добавление файлов в буфер обмена
-git commit -m "message"  | Сохранение всего из буфера обмена
-git push origin master   | Отправка изменений в репозиторий
+Команды только для одно проекта
+
+3) git init        | Инициализация Гита
+4) git remote add origin link_to_repository | Добавление репозитория
+
+5) git status      | Статус репозитория
+
+6) git add .       | Добавление файлов в буфер обмена
+7) git commit -m "message" | сохранение всего из буфера обмена
+
+8) git push origin master   | Отправка изменений в репозитории
+
+9) git branch        | Просмотреть все ветки
+10) git branch new_branch   | Создать новую ветку
+11) git checkout new_branch | Переключиться на новую ветку
+    git switch new_branch | Переключиться на новую ветку
+
+12) git restore       | Вернуть файлы в исходное состояние
+13) git reset         | Вернуть файлы в исходное состояние после git add .
+15) git reset --mixed HEAD~1 | Удалить последний коммит и вернуть файлы в исходное состояние
+
+stage
+
+production  - V1.0.0.0
+
+
+feat/
+fix/
+update/
+hotfix/
+delete/
+
+
+git commit -m "fix: fixing bug on login page"
+git commit -m "feat: add new feature"
+git commit -m "update: update feature"
+git commit -m "hotfix: fix bug on login page"
+
+git commit -m "hotfix: fix bug on login page"
+
+git merge name_branch
+]
+dqdwefcwe
