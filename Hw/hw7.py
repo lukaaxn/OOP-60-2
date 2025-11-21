@@ -40,3 +40,4 @@ def update_unsc():
         'UPDATE unsc SET name = ? WHERE rowid = ?',
         (country, rowid)
     )
+    connect.close()
